@@ -4,4 +4,4 @@
 ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=black)
 ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black)
 ![Banner](https://github.com/rope01/rope01/blob/main/cowboy%20bebop%20smoking%20GIF.gif)
-![Snake](https://github-readme-activity-graph.vercel.app/graph?username=rope01&theme=github)
+![Snake](https://github-readme-activity-graph.vercel.app/graph?username=rope01&theme=github-dark)
