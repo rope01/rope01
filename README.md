@@ -5,8 +5,3 @@
 ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black)
 ![Banner](https://github.com/rope01/rope01/blob/main/cowboy%20bebop%20smoking%20GIF.gif)
 ![Snake](https://raw.githubusercontent.com/rope01/rope01/output/github-contribution-grid-snake.svg)
-<style>
-  .profile {
-    background: linear-gradient(45deg, #FF6B6B, #FFE66D);
-  }
-</style>
