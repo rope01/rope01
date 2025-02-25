@@ -1,0 +1,29 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Запускать каждый день в полночь
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Snake
+        uses: Platane/snk@v2
+        with:
+          github_user_name: rope01
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push changes
+        run: |
+          git config --global user.name "rope01"
+          git config --global user.email "ваш_email@example.com"
+          git add -A
+          git commit -m "Update snake"
+          git push
